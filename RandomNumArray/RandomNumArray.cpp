@@ -21,7 +21,7 @@ RandomNumArray::~RandomNumArray()
 
 }
 
-void print_array()
+void RandomNumArray::print_array()
 {
 	for (int i=0; i<this->arraysize; i++)
 	{
